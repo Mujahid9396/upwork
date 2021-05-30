@@ -10,9 +10,10 @@ body {
 /* #### Container ### */
 
 .container {
-  max-width: 606px;
-  height: auto;
+  width: 360px;
+  height: 150;
   margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /* ##### Information Section ###### */
@@ -24,7 +25,7 @@ body {
 .allInfo h4 {
   color: rgb(237, 110, 167);
   font-weight: 700;
-  line-height: 27px;
+  line-height: 22px;
 }
 
 .icon {
@@ -38,8 +39,12 @@ body {
 
 .icon-text {
   left: 29px;
-  top: 4px;
+  top: 3px;
   position: relative;
+}
+
+.icon .location {
+  top: -3px;
 }
 
 .logo {
@@ -47,8 +52,10 @@ body {
 }
 
 .logo .logo-img {
-  width: 290px;
-  margin-top: 5px;
+  width: 179px;
+  top: 50px;
+  position: relative;
+  right: 6%;
 }
 
 .logo .logo-img img {
@@ -57,11 +64,12 @@ body {
 }
 
 .social-links {
-  margin-bottom: 10px;
+  position: relative;
+  margin-top: 55px;
 }
 
 .logo .social-links a {
-  padding: 5px 20px;
+  padding: 0px 7px;
 }
 
 .logo .social-links a:first-child {
@@ -79,3 +87,19 @@ body {
 .logo .allInfo {
   margin-bottom: 10px !important;
 }
+.banner {
+  width: 360px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/* 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mujahid9396/upwork.git
+git push -u origin main
+ */
