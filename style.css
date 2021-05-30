@@ -37,6 +37,7 @@ body {
 
 .icon-img {
   position: absolute;
+  width: 20px;
 }
 
 .icon-text {
